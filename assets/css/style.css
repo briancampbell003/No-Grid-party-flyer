@@ -1,0 +1,22 @@
+.body {
+    background-image: url("../images/background.png");
+}
+
+#noGridHeader {
+    margin: 5px;
+    border: 1px red solid;
+    height: 15vh;
+    font-size: 60px;
+    font-weight: bolder;
+    font-style: italic;
+    text-align: center;
+    color: antiquewhite;
+
+}
+
+
+.artistCard {
+    margin: 20px;
+    width: 300px;
+    height: 390px;
+}
