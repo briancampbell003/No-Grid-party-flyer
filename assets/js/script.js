@@ -1,4 +1,37 @@
 // WRITE CARD CLICK CARD FUNCTIONS
+var harold = document.querySelector("#harold");
+harold.addEventListener("click", showHarold);
+
+function showHarold() {
+    $('#haroldModal').modal('show')
+}
+
+var hated = document.querySelector("#hated");
+hated.addEventListener("click", showHated);
+
+function showHated() {
+    $('#hatedModal').modal('show')
+}
+
+
+
+
+
+
+var closeBtns  = document.querySelectorAll(".close");
+for (let i = 0; i < closeBtns.length; i++) {
+    closeBtns[i].addEventListener("click", closeModal);
+}
+function closeModal() {
+    $('#haroldModal').modal('hide');
+    $('#hatedModal').modal('hide');
+//     $('#hunterModal').modal('hide');
+//     $('#hideousModal').modal('hide');
+//     $('#___Modal').modal('hide');
+//     $('#___Modal').modal('hide');
+
+}
+
 
 // WRITE CODE FOR TIMER
 function startTimer() {
