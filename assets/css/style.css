@@ -95,6 +95,9 @@
     filter: grayscale(100%);
 }
 
+.panelImg {
+    width: 466px;
+}
 
 #timer {
     position: relative;
