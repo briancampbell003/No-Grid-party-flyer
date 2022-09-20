@@ -99,8 +99,15 @@
     filter: grayscale(100%);
 }
 
+#haroldModalLabel, #hatedModalLabel, #HideousModalLabel {
+    font-size: 44px;
+    padding: 0px;
+    margin: 0px;
+}
+
 .panelImg {
-    width: 466px;
+    width: 450px;
+    margin: 0px 10px 15px;
 }
 
 #timer {
